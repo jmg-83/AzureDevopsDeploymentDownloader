@@ -7,7 +7,7 @@
   https://docs.microsoft.com/en-us/rest/api/azure/devops/core/projects/list?view=azure-devops-rest-5.1#teamprojectreference
 
 .EXAMPLE
-  Get-AzureDevopsProjects "myorganization" "Basic ZKlG2YX8xHFBZRES9zmBZM7q/kkPrdxjctyROQQtrc0=" "myproject"
+  Get-AzureDevopsProjects "myorganization" "Basic ZKlG2YX8xHFBZRES9zmBZM7q/kkPrdxjctyROQQtrc0="
 
 .LINK
   https://docs.microsoft.com/en-us/rest/api/azure/devops/core/projects/list?view=azure-devops-rest-5.1
