@@ -7,7 +7,7 @@
   https://docs.microsoft.com/en-us/rest/api/azure/devops/core/projects/list?view=azure-devops-rest-5.1#teamprojectreference
 
 .EXAMPLE
-  Get-AzureDevopsProjects "payvision" 'Basic 123456M6Z3Rkd3FkNGF4dDXXXXXXNjQ3bXhwZXo3ZmtqemdqZWZnM2ljNmlrZHd0ZjJ1cWtxbTV5cQ=='
+  Get-AzureDevopsProjects "myorganization" "Basic ZKlG2YX8xHFBZRES9zmBZM7q/kkPrdxjctyROQQtrc0=" "myproject"
 
 .LINK
   https://docs.microsoft.com/en-us/rest/api/azure/devops/core/projects/list?view=azure-devops-rest-5.1
@@ -42,7 +42,7 @@ function Get-AzureDevopsDeployments
   https://docs.microsoft.com/en-us/rest/api/azure/devops/release/deployments/list?view=azure-devops-rest-5.1#deployment
 
 .EXAMPLE
-  Get-AzureDevopsDeployments "payvision" 'Basic 123456M6Z3Rkd3FkNGF4dDXXXXXXNjQ3bXhwZXo3ZmtqemdqZWZnM2ljNmlrZHd0ZjJ1cWtxbTV5cQ==' 'myproject'
+  Get-AzureDevopsDeployments "myorganization" "Basic ZKlG2YX8xHFBZRES9zmBZM7q/kkPrdxjctyROQQtrc0=" "myproject"
 
 .LINK
  https://docs.microsoft.com/en-us/rest/api/azure/devops/release/deployments/list?view=azure-devops-rest-5.1
